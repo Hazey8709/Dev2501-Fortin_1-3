@@ -3,7 +3,7 @@
 # Info:
 
 **Author:** _Fortin Jordan, aka: Hazey <br>
-**School:** _Full-Sail_ <br>
+**School:** \_Full-Sail_ <br>
 **Class:** _Dev2501-0. Interface Programming_ <br>
 
 # Details:
@@ -27,4 +27,5 @@ components: _Logo, Avatar, Icon, Search Input, Header, Nav, Ads display, Button,
 
 _1. Git ignore file added._ <br>
 _2. Readme added and info._ <br>
-_3. _ <br>
+_3. Add dev branch_ <br>
+_4. Add 01_Components branch_ <br>
