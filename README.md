@@ -2,9 +2,9 @@
 
 
 # Info:
-School: *Full-Sail*  <br>
-Class: *Dev2501-0. Interface Programming*  <br>
-Author: *Fortin Jordan, aka: Hazey*
+**School:** *Full-Sail*  <br>
+**Class:** *Dev2501-0. Interface Programming*  <br>
+**Author:** *Fortin Jordan, aka: Hazey*
 
 
 
@@ -31,9 +31,3 @@ components: *Logo, Avatar, Icon, Search Input, Header, Nav, Ads display, Button,
 *1. Git ignore file added.* <br>
 *2. Readme added and info.*  <br>
 *3. * <br>
-
-
-
-
-
-
