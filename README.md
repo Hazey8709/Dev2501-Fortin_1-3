@@ -2,7 +2,7 @@
 
 # Info:
 
-**Author:** _Fortin Jordan, aka: Hazey
+**Author:** _Fortin Jordan, aka: Hazey <br>
 **School:** _Full-Sail_ <br>
 **Class:** _Dev2501-0. Interface Programming_ <br>
 
