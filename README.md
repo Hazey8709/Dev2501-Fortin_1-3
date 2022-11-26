@@ -9,23 +9,31 @@ Author: *Fortin Jordan, aka: Hazey*
 
 
 # Details:
-Will be doing...  <br>
-<br>
-Wk-1: Will be adding components to a single page application.  <br>
-components: *Logo, Avatar, Icon, Search Input, Header, Nav, Ads display, Button, PostCard component,*
+# Will be doing...**  <br>
+**Wk-1:** *Will be adding components to a single page application.*  <br>
+components: *Logo, Avatar, Icon, Search Input, Header, Nav, Ads display, Button, PostCard component,* <br>
 
 
+# Has been done...**  <br>
+**Wk-1:** <br>
+
+
+
+
+# Branches
+**Main:** <br>
+**Dev:**  <br>
+**01-Components:**  <br>
 
 
 # Dev Notes
 
-1. Git ignore file added.
-2. Readme added and info.
-3. 
+*1. Git ignore file added.* <br>
+*2. Readme added and info.*  <br>
+*3. * <br>
 
 
 
 
 
-# Wk-1:
-Has been done...  <br>
+
