@@ -17,6 +17,15 @@ components: *Logo, Avatar, Icon, Search Input, Header, Nav, Ads display, Button,
 
 
 
+# Dev Notes
 
-# Wk-1:  
+1. Git ignore file added.
+2. Readme added and info.
+3. 
+
+
+
+
+
+# Wk-1:
 Has been done...  <br>
