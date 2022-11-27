@@ -1,11 +1,15 @@
 import React from "react";
+// import Avatar from './Avatar'
+import Logo from "./Logo";
 
 const Header = (props) => {
     return (
         <header style={style.header}>
             <div style={style.logoCont}>
-                <h3>Jordan</h3>
-                <div style={style.logo}></div>
+                <h3 style={style.logoTitle}>Jordan</h3>
+                <div style={style.logo}>
+                    <Logo />
+                </div>
             </div>
 
             <div style={style.searchCont}>
@@ -16,7 +20,10 @@ const Header = (props) => {
                     placeholder='Search'
                 ></input>
             </div>
-            <div style={style.avatarCont}></div>
+            <div
+                style={style.avatarCont}
+                // <Avatar AvatarImg={ImageUrl}
+            ></div>
         </header>
     );
 };
@@ -40,12 +47,16 @@ const style = {
 
     logoCont: {
         display: "flex",
-        border: "1px solid black",
+        // border: "1px solid black",
         borderRadius: "10px",
-        backgroundColor: "white",
+        backgroundColor: "#0005",
         width: "10rem",
         marginLeft: "1rem",
         alignItems: "center",
+    },
+
+    logoTitle: {
+        padding: ".2rem",
     },
 
     searchCont: {
