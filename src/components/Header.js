@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
-import Avatar from './Avatar'
+import Avatar from "./Avatar";
 
 const Header = (props) => {
     return (
@@ -91,9 +91,3 @@ const style = {
     //     height: "60px",
     // },
 };
-
-//! Notes:
-//*  Logo Cont Left side,
-//*  Search cont middle,
-//*  Avatar cont right side,
-//*
