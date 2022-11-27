@@ -1,6 +1,6 @@
 import React from "react";
-// import Avatar from './Avatar'
 import Logo from "./Logo";
+import Avatar from './Avatar'
 
 const Header = (props) => {
     return (
@@ -20,10 +20,11 @@ const Header = (props) => {
                     placeholder='Search'
                 ></input>
             </div>
-            <div
-                style={style.avatarCont}
-                // <Avatar AvatarImg={ImageUrl}
-            ></div>
+
+            <div>
+                <Avatar />
+                {/* <Avatar AvatarImg={ImageUrl} */}
+            </div>
         </header>
     );
 };
@@ -78,17 +79,17 @@ const style = {
         padding: "5px",
     },
 
-    avatarCont: {
-        display: "flex",
-        border: "1px solid black",
-        borderRadius: "10px",
-        flexDirection: "row",
-        backgroundColor: "white",
-        alignItems: "center",
-        marginRight: "3%",
-        width: "10rem",
-        height: "60px",
-    },
+    // avatarCont: {
+    //     display: "flex",
+    //     border: "1px solid black",
+    //     borderRadius: "10px",
+    //     flexDirection: "row",
+    //     backgroundColor: "white",
+    //     alignItems: "center",
+    //     marginRight: "3%",
+    //     width: "10rem",
+    //     height: "60px",
+    // },
 };
 
 //! Notes:

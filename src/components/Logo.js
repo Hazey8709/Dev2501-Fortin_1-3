@@ -7,6 +7,7 @@ const Logo = (props) => {
 
 export default Logo;
 
+
 const style = {
     logo: {
         height: "3rem",
