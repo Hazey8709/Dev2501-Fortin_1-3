@@ -28,7 +28,7 @@ const style = {
         position: "relative",
         float: "right",
         // border: "1px solid red",
-        borderRadius: "10px",
+        borderTopRightRadius: "10px",
         width: "13rem",
         height: "37.9rem",
         backgroundColor: "#0005",

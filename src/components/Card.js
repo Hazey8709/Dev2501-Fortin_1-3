@@ -29,7 +29,6 @@ const style = {
         flexDirection: "column",
         alignText: "center",
         border: "1px solid white",
-        borderRadius: "10px",
         backgroundColor: "#0005",
         marginTop: "1.9rem",
         marginLeft: "10rem",
@@ -39,9 +38,9 @@ const style = {
         // border: "1px solid red",
         borderRadius: "5px",
         backgroundColor: "#0005",
-        height: "15rem",
+        height: "14.7rem",
         margin: "1rem",
-        marginTop: "3.4rem",
+        marginTop: "3.7rem",
     },
 
     cardTitle: {
