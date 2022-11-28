@@ -30,7 +30,7 @@ const style = {
         // border: "1px solid red",
         borderRadius: "10px",
         width: "13rem",
-        height: "37.8rem",
+        height: "37.9rem",
         backgroundColor: "#0005",
         marginTop: "2rem",
         padding: "1rem",

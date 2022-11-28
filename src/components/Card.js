@@ -1,19 +1,21 @@
 import React from "react";
+import Form from "./Form";
 
 const Card = (props) => {
     return (
         <article style={style.cardCont}>
+            <Form />
             <img src='' alt={props.alt} style={style.cardImage} />
             <h3 style={style.cardTitle}>Special</h3>
             <p style={style.cardDetails}>Custom work at a discount!</p>
-            <div>
+            {/* <div>
                 <button type='submit' style={style.cardBtn1}>
-                    Share
+                    Edit
                 </button>
                 <button type='submit' style={style.cardBtn2}>
-                    Learn-More
+                    Delete
                 </button>
-            </div>
+            </div> */}
         </article>
     );
 };
@@ -29,16 +31,17 @@ const style = {
         border: "1px solid white",
         borderRadius: "10px",
         backgroundColor: "#0005",
-        marginTop: "12.4rem",
+        marginTop: "1.9rem",
         marginLeft: "10rem",
     },
 
     cardImage: {
-        border: "1px solid red",
+        // border: "1px solid red",
         borderRadius: "5px",
         backgroundColor: "#0005",
         height: "15rem",
         margin: "1rem",
+        marginTop: "3.4rem",
     },
 
     cardTitle: {
@@ -51,29 +54,31 @@ const style = {
         justifyContent: "center",
     },
 
-    cardBtn1: {
-        display: "flex",
-        flexDirection: "column",
-        alignText: "center",
-        justifyContent: "center",
-        border: "1px outset",
-        borderRadius: "5px",
-        margin: "0 auto",
-        marginBottom: "1rem",
-        padding: ".5rem",
-        backgroundColor: "#0005",
-        color: "white",
-        fontWeight: "bold",
-    },
+    // cardBtn1: {
+    //     display: "flex",
+    //     flexDirection: "column",
+    //     alignText: "center",
+    //     justifyContent: "center",
+    //     border: "1px outset green",
+    //     borderRadius: "5px",
+    //     margin: "0 auto",
+    //     marginBottom: "1rem",
+    //     padding: ".2rem",
+    //     backgroundColor: "#0005",
+    //     color: "white",
+    //     fontWeight: "bold",
+    // },
 
-    cardBtn2: {
-        display: "flex",
-        flexDirection: "column",
-        margin: "0 auto",
-        border: "1px outset",
-        borderRadius: "5px",
-        backgroundColor: "#0005",
-        color: "white",
-        padding: ".5rem",
-    },
+    // cardBtn2: {
+    //     display: "flex",
+    //     flexDirection: "column",
+    //     margin: "0 auto",
+    //     border: "1px outset red",
+    //     borderRadius: "5px",
+    //     backgroundColor: "#0005",
+    //     color: "white",
+    //     padding: ".2rem",
+    //     fontWeight: "bold",
+    //     marginBottom: ".1rem",
+    // },
 };

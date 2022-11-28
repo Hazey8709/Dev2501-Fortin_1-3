@@ -43,7 +43,7 @@ const style = {
         width: "10rem",
         height: "40rem",
         backgroundColor: "#0005",
-        marginTop: "1.8rem",
+        marginTop: "1.9rem",
     },
 
     liConts: {
@@ -54,7 +54,7 @@ const style = {
     },
 
     aConts: {
-        // border: "1px solid white",
+        border: "1px solid white",
         borderRadius: "5px",
         padding: ".5rem",
         textDecoration: "none",
