@@ -1,19 +1,22 @@
 import React from "react";
+import Ad1 from "../images/airJordanAdd.jpg";
+import Ad2 from "../images/saleAdd.png";
+import Ad3 from "../images/toyShopAdd.webp";
 
 const Ads = (props) => {
     return (
         <div style={style.adsCont}>
-            <div style={style.ad}>
-                <p>Ad-1</p>
-                {/* <img></img> */}
+            <div style={style.adCont}>
+                <p style={style.adTitle}>The need for classics!</p>
+                <img src={Ad1} style={style.ad1}></img>
             </div>
-            <div style={style.ad}>
-                <p>Ad-2</p>
-                {/* <img></img> */}
+            <div style={style.adCont}>
+                <p style={style.adTitle}>Sale!</p>
+                <img src={Ad2} style={style.ad2}></img>
             </div>
-            <div style={style.ad}>
-                <p>Ad-3</p>
-                {/* <img></img> */}
+            <div style={style.adCont}>
+                <p style={style.adTitle}>All the toys you need!</p>
+                <img src={Ad3} style={style.ad3}></img>
             </div>
         </div>
     );
@@ -36,12 +39,34 @@ const style = {
         padding: "1rem",
     },
 
-    ad: {
-        // border: "1px solid green",
+    adCont: {
+        border: "1px solid white",
         borderRadius: "5px",
-        backgroundColor: "#0005",
-        marginTop: "2rem",
+        backgroundColor: "#bbb9b9",
+        marginTop: ".5rem",
         textAlign: "center",
-        height: "11rem",
+        height: "12.3rem",
+    },
+
+    adTitle: {
+        fontWeight: "bold",
+    },
+
+    ad1: {
+        borderRadius: "1rem",
+        height: "9rem",
+        width: "9rem",
+    },
+
+    ad2: {
+        borderRadius: "1rem",
+        height: "10rem",
+        width: "12rem",
+    },
+
+    ad3: {
+        borderRadius: "1rem",
+        height: "9rem",
+        width: "11rem",
     },
 };
