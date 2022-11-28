@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Ads from "./components/Ads";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
-//import Form from "./components/Form";
 
 class App extends Component {
     render() {
@@ -15,7 +14,6 @@ class App extends Component {
                 <Navbar />
                 <Ads />
                 <Card />
-                {/* <Form /> */}
                 <Footer />
 
                 {/* <h1>Running! Good luck</h1> */}
