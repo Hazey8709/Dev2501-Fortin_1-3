@@ -1,4 +1,4 @@
-import { hover } from "@testing-library/user-event/dist/hover";
+// import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
 
 const Navbar = (props) => {
@@ -37,13 +37,13 @@ const style = {
     navCont: {
         display: "flex",
         flexDirection: "column",
-        // border: "1px solid black",
+        // border: "1px solid white",
         position: "absolute",
         borderRadius: "10px",
         width: "10rem",
         height: "40rem",
         backgroundColor: "#0005",
-        marginTop: "2rem",
+        marginTop: "1.8rem",
     },
 
     liConts: {

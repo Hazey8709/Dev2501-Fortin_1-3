@@ -4,7 +4,7 @@ import Avatar from "./Avatar";
 
 const Header = (props) => {
     return (
-        <header style={style.header}>
+        <header style={style.headerCont}>
             <div style={style.logoCont}>
                 <h3 style={style.logoTitle}>Jordan</h3>
                 <div style={style.logo}>
@@ -32,7 +32,7 @@ const Header = (props) => {
 export default Header;
 
 const style = {
-    header: {
+    headerCont: {
         background: "#0005",
         display: "flex",
         flexDirection: "row",
@@ -43,7 +43,7 @@ const style = {
         borderBottom: "6px solid black",
         borderBottomLeftRadius: "10px",
         borderBottomRightRadius: "10px",
-        height: "5rem",
+        height: "8rem",
     },
 
     logoCont: {
@@ -67,6 +67,7 @@ const style = {
     },
 
     searchBtn: {
+        border: "inset",
         borderRadius: "5px",
         padding: "5px",
         backgroundColor: "lightGreen",
@@ -74,9 +75,11 @@ const style = {
     },
 
     input: {
+        border: "inset",
         borderRadius: "5px",
         backgroundColor: "antiqueWhite",
         padding: "5px",
+        width: "15rem",
     },
 
     // avatarCont: {

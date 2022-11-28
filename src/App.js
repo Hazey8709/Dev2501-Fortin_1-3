@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Ads from "./components/Ads";
+import Card from "./components/Card";
 
 class App extends Component {
     render() {
@@ -11,6 +12,7 @@ class App extends Component {
                 <Header />
                 <Navbar />
                 <Ads />
+                <Card />
 
                 {/* <h1>Running! Good luck</h1> */}
             </div>

@@ -5,15 +5,15 @@ const Ads = (props) => {
         <div style={style.adsCont}>
             <div style={style.ad}>
                 <p>Ad-1</p>
-                <img></img>
+                {/* <img></img> */}
             </div>
             <div style={style.ad}>
                 <p>Ad-2</p>
-                <img></img>
+                {/* <img></img> */}
             </div>
             <div style={style.ad}>
                 <p>Ad-3</p>
-                <img></img>
+                {/* <img></img> */}
             </div>
         </div>
     );
@@ -25,6 +25,7 @@ const style = {
     adsCont: {
         display: "flex",
         flexDirection: "column",
+        position: "relative",
         float: "right",
         // border: "1px solid red",
         borderRadius: "10px",

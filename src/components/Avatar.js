@@ -2,7 +2,7 @@ import React from "react";
 import avatarImage from "../images/logo.png";
 
 const Avatar = (props) => {
-    return <img src={avatarImage} alt={props.AvatarAlt} style={style.avatar} />;
+    return <img src={avatarImage} alt={props.alt} style={style.avatar} />;
 };
 
 export default Avatar;
