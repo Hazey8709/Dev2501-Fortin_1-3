@@ -3,11 +3,26 @@ import React from "react";
 const Footer = (props) => {
     return (
         <footer style={style.footerCont}>
-            <div style={style.iconCont}></div>
-            <div style={style.iconCont}></div>
-            <div style={style.iconCont}></div>
-            <div style={style.iconCont}></div>
-            <div style={style.iconCont}></div>
+            <div style={style.iconCont}>
+                <a style={style.link}>GitHub</a>
+                <a>GitHub</a>
+            </div>
+            <div style={style.iconCont}>
+                <a>GitHub</a>
+                <a>GitHub</a>
+            </div>
+            <div style={style.iconCont}>
+                <a>GitHub</a>
+                <a>GitHub</a>
+            </div>
+            <div style={style.iconCont}>
+                <a>GitHub</a>
+                <a>GitHub</a>
+            </div>
+            <div style={style.iconCont}>
+                <a>GitHub</a>
+                <a>GitHub</a>
+            </div>
         </footer>
     );
 };
@@ -30,4 +45,12 @@ const style = {
         // width: "90%",
         height: "1rem",
     },
+
+    // link: {
+    //     border: "1px outset black",
+    //     margin: "20px",
+    //     fontSize: "10px",
+    //     textAlign: "center",
+    //     justifyContent: "center",
+    // },
 };
