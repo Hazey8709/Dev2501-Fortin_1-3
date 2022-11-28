@@ -29,3 +29,7 @@ export default App;
 //*  Search cont middle,
 //*  Avatar cont right side,
 //!  Add Hover style to nav Buttons,
+//*  Navbar +,
+//*  Adds +,
+//*  Form/Post +,
+//*  Footer +,

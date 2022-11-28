@@ -3,11 +3,11 @@ import React from "react";
 const Footer = (props) => {
     return (
         <footer style={style.footerCont}>
-            <div style={style.icon}></div>
-            <div style={style.icon}></div>
-            <div style={style.icon}></div>
-            <div style={style.icon}></div>
-            <div style={style.icon}></div>
+            <div style={style.iconCont}></div>
+            <div style={style.iconCont}></div>
+            <div style={style.iconCont}></div>
+            <div style={style.iconCont}></div>
+            <div style={style.iconCont}></div>
         </footer>
     );
 };
@@ -24,7 +24,7 @@ const style = {
         height: "9rem",
     },
 
-    icon: {
+    iconCont: {
         border: "1px solid blue",
         margin: ".3rem",
         // width: "90%",
