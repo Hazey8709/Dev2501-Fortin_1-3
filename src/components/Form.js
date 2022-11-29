@@ -43,7 +43,7 @@ const style = {
         float: "top",
         width: "19rem",
         margin: "0 auto",
-        marginTop: "1.2rem",
+        marginTop: "2rem",
     },
 
     inputName: {
