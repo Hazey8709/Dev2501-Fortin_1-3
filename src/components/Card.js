@@ -8,9 +8,7 @@ const Card = (props) => {
             <Form />
             <img src={mainAd} alt={props.alt} style={style.mainAdImage} />
             <h3 style={style.cardTitle}>Icons...</h3>
-            <p style={style.cardDetails}>
-                Any Icon you can think of! You name it We got it.
-            </p>
+            <p style={style.cardDetails} props={props.cardDetails}></p>
         </article>
     );
 };

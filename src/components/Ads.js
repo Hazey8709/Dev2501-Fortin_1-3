@@ -8,15 +8,15 @@ const Ads = (props) => {
         <div style={style.adsCont}>
             <div style={style.adCont}>
                 <p style={style.adTitle}>The need for classics!</p>
-                <img src={Ad1} style={style.ad1}></img>
+                <img src={Ad1} style={style.ad1} alt=''></img>
             </div>
             <div style={style.adCont}>
                 <p style={style.adTitle}>Sale!</p>
-                <img src={Ad2} style={style.ad2}></img>
+                <img src={Ad2} style={style.ad2} alt=''></img>
             </div>
             <div style={style.adCont}>
                 <p style={style.adTitle}>All the toys you need!</p>
-                <img src={Ad3} style={style.ad3}></img>
+                <img src={Ad3} style={style.ad3} alt=''></img>
             </div>
         </div>
     );

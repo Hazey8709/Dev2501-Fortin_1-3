@@ -13,7 +13,7 @@ class App extends Component {
                 <Header />
                 <Navbar />
                 <Ads />
-                <Card />
+                <Card cardDetails='hello test' />
                 <Footer />
 
                 {/* <h1>Running! Good luck</h1> */}

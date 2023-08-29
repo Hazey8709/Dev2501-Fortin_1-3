@@ -11,6 +11,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://github.com/Hazey8709'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaGithub />
                 </a>
@@ -18,6 +19,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.facebook.com/people/Noobie-Js/100077721983756/'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaFacebook />
                 </a>
@@ -27,6 +29,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.youtube.com/channel/UC7fWlqdyFBA1FwEVhtDMcuA'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaYoutube />
                 </a>
@@ -34,6 +37,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.bitdegree.org/user/Hazey87/profile'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaCircle />
                 </a>
@@ -43,6 +47,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.youtube.com/channel/UC7fWlqdyFBA1FwEVhtDMcuA'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaAccusoft />
                 </a>
@@ -50,6 +55,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.bitdegree.org/user/Hazey87/profile'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaAirbnb />
                 </a>
@@ -59,6 +65,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.youtube.com/channel/UC7fWlqdyFBA1FwEVhtDMcuA'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaAmazonPay />
                 </a>
@@ -66,6 +73,7 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.bitdegree.org/user/Hazey87/profile'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaAmazon />
                 </a>
@@ -75,10 +83,11 @@ const Footer = (props) => {
                     style={style.link}
                     href='https://www.youtube.com/channel/UC7fWlqdyFBA1FwEVhtDMcuA'
                     target='_blank'
+                    rel='noreferrer'
                 >
                     <FaAngellist />
                 </a>
-                <a style={style.link} href='' target='_blank'>
+                <a style={style.link} href=' ' target='_blank' rel='noreferrer'>
                     <FaAndroid />
                 </a>
             </div>
